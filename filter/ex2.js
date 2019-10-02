@@ -24,6 +24,10 @@ Sortie attendue:
  */
 
 function keepStarks(names) {
+  const winterWasHere = names.filter(i => {
+    return i.endsWith('ark')
+  })
+  return winterWasHere
 }
 
 // Ne pas modifier l'export
